@@ -4,6 +4,7 @@ import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Graphics;
 
+@SuppressWarnings("serial")
 public class Opdracht2_2 extends Applet {
 	 public void init() {
 		    setBackground(Color.white);
