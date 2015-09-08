@@ -5,7 +5,20 @@ import java.applet.*;
 
 @SuppressWarnings("serial")
 public class Opdracht4_4tabel extends Applet {
+	public class Show extends Applet{
+	    //declaratie.
+	    Color opvulkleur;
+	    Color lijnkleur;
+	    int breedte;
+	    int hoogte;
 
+	    public void init1() {
+	        //initialisatie. 
+	        opvulkleur = Color.MAGENTA;
+	        lijnkleur = Color.BLACK;
+	        breedte = 200;
+	        hoogte = 100;
+	    }
   public void init() {
   }
 
@@ -24,7 +37,7 @@ public class Opdracht4_4tabel extends Applet {
     g.fillRect(90, 50, 60, 300);
     g.setColor(Color.CYAN);
     g.fillRect(270, 230, 60, 120);
-	 g.setColor(Color.black);   
+	g.setColor(Color.black);   
     g.drawString("100 KG  ", 10, 60 );
     g.setColor(Color.black);
     g.drawString("80 KG  ", 10, 120 );
@@ -42,5 +55,9 @@ public class Opdracht4_4tabel extends Applet {
     g.drawString("Hans", 190, 390 );
     g.setColor(Color.black);
     g.drawString("Valerie", 285, 390 );
+
   }
+	}
 }
+    
+	
